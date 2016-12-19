@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/padding_medium"
+    android:paddingRight="@dimen/padding_medium" >
+
+    <ImageView
+        android:id="@+id/scheduleEntryStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:paddingBottom="8dp"
+        android:paddingRight="4dp"
+        android:paddingTop="8dp"
+        android:src="@drawable/ic_schedule_running" />
+
+    <TextView
+        android:id="@+id/scheduleEntryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/scheduleEntryStatus"
+        android:paddingTop="4dp"
+        android:text="@string/sample_text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/scheduleEntryTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scheduleEntryName"
+        android:layout_toRightOf="@id/scheduleEntryStatus"
+        android:paddingBottom="4dp"
+        android:text="@string/sample_text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/scheduleEntryRepeat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/scheduleEntryTime"
+        android:layout_alignBottom="@+id/scheduleEntryTime"
+        android:layout_alignParentRight="true"
+        android:text="@string/sample_text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

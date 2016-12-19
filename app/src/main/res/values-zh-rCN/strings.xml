@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">AutoSMS</string>
+    <string name="short_message">短信</string>
+    <string name="schedule">日程</string>
+    <string name="timer_schedule">定时日程</string>
+    <string name="birthday_schedule">生日日程</string>
+    <string name="bulk_schedule">大量日程</string>
+    <string name="template">模版</string>
+    <string name="setting">设置</string>
+    <string name="choose_contacts">选择联系人</string>
+    <string name="add_template">新增模版</string>
+    <string name="insert_template">插入模版</string>
+    <string name="add_timer_schedule">新增定时日程</string>
+    <string name="add_birthday_schedule">新增生日日程</string>
+    <string name="activate_all">全部启动</string>
+    <string name="deactivate_all">全部关闭</string>
+    <string name="delete_all">全部删除</string>
+    <string name="delete">删除</string>
+    <string name="edit">修改</string>
+    <string name="send_now">立即发送</string>
+    <string name="activate">启动</string>
+    <string name="deactivate">关闭</string>
+    <string name="save">储存</string>
+    <string name="send">发送</string>
+    <string name="preview">预览</string>
+    <string name="contacts">联系人</string>
+    <string name="groups">群组</string>
+    <string name="delete_contacts">删除联系人</string>
+    <string name="no_contact">无联系人</string>
+    <string name="search_contact">寻找联系人</string>
+    <string name="repeat">周期</string>
+    <string name="date">日期</string>
+    <string name="time">时间</string>
+    <string name="birthday">生日</string>
+    <string name="insert_tag">插入标籤</string>
+    <string name="insert_column_tag">插入欄標籤</string>
+    <string name="title_scheduler">AutoSMS日程器</string>
+    <string name="title_send_sms">发送短信</string>
+    <string name="pref_confirm_send">发送短信确认</string>
+    <string name="pref_confirm_send_summary_on">发送短信前显示确认视窗</string>
+    <string name="pref_confirm_send_summary_off">直接发送短信</string>
+    <string name="pref_roaming">漫游</string>
+    <string name="pref_roaming_summary_on">漫游时发送短信</string>
+    <string name="pref_roaming_summary_off">漫游时不发送短信</string>
+    <string name="pref_history">发送记录</string>
+    <string name="hint_schedule_name">输入日程名称</string>
+    <string name="msg_no_telephony_radio">本装置不支援短信服务。</string>
+    <string name="msg_have_activated_schedules">有启动中的日程。</string>
+    <string name="msg_send_sms">发送短信？</string>
+    <string name="msg_no_phone_contacts">所有联系人都没有电话号码。</string>
+    <string name="msg_no_phone_groups">所有群组都没有有电话号码的联系人。</string>
+    <string name="msg_delete_all_schedules">删除所有日程吗？</string>
+    <string name="msg_delete_all_templates">删除所有模版吗？</string>
+    <string name="msg_stop_sending_sms">停止发送短信?</string>
+    <string name="msg_delete_all_history">删除所有发送记录吗?</string>
+    <string name="msg_history_result_success">成功</string>
+    <string name="msg_history_result_pending">执行中</string>
+    <string name="msg_history_result_failed">失败</string>
+    <string-array name="msg_history_result_errors">
+        <item >不明</item>
+        <item >手动停止</item>
+        <item >过期</item>
+        <item >打开安全模式</item>
+        <item >漫游服务</item>
+        <item >发生通用错误</item>
+        <item >没有服务</item>
+        <item >没有提供PDU</item>
+        <item >没有讯号</item>
+    </string-array>
+    <string name="msg_send_sms_result_success">短信已经成功发送。</string>
+    <string name="msg_send_sms_result_failed">短信发送失败。</string>
+    <string name="msg_reach_schedule_limit">已达日程个数上线。</string>
+    <string name="msg_input_schedule_name">请输入日程名称</string>
+    <string name="msg_input_sms">请输入短信</string>
+    <string name="msg_input_content">请输入内容</string>
+    <string name="msg_choose_contact">请选择联系人</string>
+    <string name="msg_want_buy_premium">你可以购买专业版来增加日程个数和联系人个数。</string>
+    <string name="msg_number_wrong_insert_tag">插入标籤后，短信所需封数可能不正确。</string>
+    <string name="msg_schedule_is_changed">日程设定已经变更，储存新设定？</string>
+    <string-array name="schedule_repeat_types">
+        <item >无</item>
+        <item >每日</item>
+        <item >每周</item>
+        <item >每月</item>
+        <item >每年</item>
+    </string-array>
+    <string name="schedule_repeat_birthday">生日</string>
+    <string name="schedule_timeout">过期</string>    
+    <string-array name="tag_names">
+        <item >名称</item>
+        <item >姓</item>
+        <item >名</item>
+        <item >绰号</item>
+        <item >备注</item>
+        <item >AutoSMS A</item>
+        <item >AutoSMS B</item>
+        <item >AutoSMS C</item>
+    </string-array>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="msg_import_csv">正在导入%s</string>
+    <string name="msg_import_csv_failed">无法导入CSV档案。</string>
+    <string name="pref_send_delay">延迟时间</string>
+    <string name="pref_send_delay_summary">延迟%s秒后再发送下一封短信</string>
+    <string name="msg_set_delay_time">延迟几秒钟?</string>
+    <string name="csv_import">导入</string>    
+    <string name="send_sos">求救</string>
+    <string name="msg_template_is_changed_save">模版內容已经变更，是否储存？</string>
+    <string name="msg_template_is_changed_ignore">模版內容已經变更，是否放弃？</string>    
+    
+</resources>

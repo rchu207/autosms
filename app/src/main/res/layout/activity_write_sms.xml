@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/layoutContactComboBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/abc_menu_dropdown_panel_holo_light"
+            android:onClick="onContactComboBoxClicked" >
+
+            <TextView
+                android:id="@+id/textViewContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:paddingBottom="@dimen/padding_medium"
+                android:paddingLeft="@dimen/padding_small"
+                android:paddingTop="@dimen/padding_medium"
+                android:text="@string/no_contact"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_nav_expand" />
+
+        </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/edit_text_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:ems="10"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>

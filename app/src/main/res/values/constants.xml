@@ -1,0 +1,10 @@
+<resources>
+    <string name="sample_text">Sample</string>
+    <string-array name="pref_send_delay_names">
+        <item >0</item>
+        <item >30</item>
+        <item >60</item>
+        <item >120</item>
+    </string-array>
+    
+</resources>

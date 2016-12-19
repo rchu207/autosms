@@ -1,1 +1,3 @@
-# autosms
+# AutoSMS
+
+A profesional SMS application.

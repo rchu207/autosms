@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/itemAddContact" android:title="@string/choose_contacts" android:icon="@drawable/ic_action_social_person" android:showAsAction="always"></item>
+    <item android:id="@+id/itemInsertTag" android:title="@string/insert_tag" android:icon="@drawable/ic_action_insert_tag" android:showAsAction="ifRoom"></item>
+    <item android:id="@+id/itemInsertColumn" android:title="@string/insert_column_tag" android:icon="@drawable/ic_action_insert_column_tag" android:showAsAction="ifRoom"></item>
+    <item android:id="@+id/itemInsertTemplate" android:title="@string/insert_template" android:icon="@drawable/ic_action_insert_template" android:showAsAction="ifRoom"></item>
+    <item android:id="@+id/itemPreview" android:title="@string/preview" android:icon="@drawable/ic_action_preview" android:showAsAction="ifRoom"></item>
+    <item android:id="@+id/itemSend" android:title="@string/send" android:icon="@drawable/ic_action_send" android:showAsAction="ifRoom"></item>
+
+</menu>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/itemNewTimeSchedule" android:title="@string/add_timer_schedule" android:icon="@drawable/ic_action_add_timer" android:showAsAction="ifRoom"></item>
+    <item android:id="@+id/itemNewBirthdaySchedule" android:title="@string/add_birthday_schedule" android:icon="@drawable/ic_action_social_add_person"  android:showAsAction="ifRoom"></item>
+    <item android:id="@+id/itemActiveAllSchedule" android:title="@string/activate_all"></item>
+    <item android:id="@+id/itemDeactiveAllSchedule" android:title="@string/deactivate_all"></item>
+    <item android:id="@+id/itemDeleteAll" android:title="@string/delete_all"></item>
+
+</menu>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/contactEntryPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:paddingBottom="8dp"
+        android:paddingRight="4dp"
+        android:paddingTop="8dp"
+        android:minHeight="48dp"
+        android:src="@drawable/ic_list_user" />
+
+    <TextView
+        android:id="@+id/contactEntryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/contactEntryPhoto"
+        android:layout_alignParentTop="true"
+        android:paddingTop="4dp"
+        android:text="@string/sample_text"
+        android:textSize="@dimen/padding_large" />
+
+    <TextView
+        android:id="@+id/contactEntryPhoneType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/contactEntryPhoto"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/contactEntryPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/contactEntryPhoneType"
+        android:paddingBottom="4dp"
+        android:paddingLeft="2dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+</RelativeLayout>

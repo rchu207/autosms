@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AutoSMS</string>
+    <string name="short_message">SMS</string>
+    <string name="schedule">Schedule</string>
+    <string name="timer_schedule">Timer Schedule</string>
+    <string name="birthday_schedule">Birthday Schedule</string>
+    <string name="bulk_schedule">Bulk Schedule</string>
+    <string name="template">Template</string>
+    <string name="setting">Setting</string>
+    <string name="choose_contacts">Choose Contacts</string>
+    <string name="add_template">Add Template</string>
+    <string name="insert_template">Insert Template</string>
+    <string name="add_timer_schedule">Add Timer</string>
+    <string name="add_birthday_schedule">Add Birthday</string>
+    <string name="activate_all">Activate All</string>
+    <string name="deactivate_all">Deactivate All</string>
+    <string name="delete_all">Delete All</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="send_now">Send Now</string>
+    <string name="activate">Activate</string>
+    <string name="deactivate">Deactivate</string>
+    <string name="save">Save</string>
+    <string name="send">Send</string>
+    <string name="preview">Preview</string>
+    <string name="contacts">Contacts</string>
+    <string name="groups">Groups</string>
+    <string name="delete_contacts">Delete Contacts</string>
+    <string name="no_contact">No Contacts</string>
+    <string name="search_contact">Search Contact</string>
+    <string name="repeat">Repeat</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="birthday">Birthday</string>
+    <string name="insert_tag">Insert Tag</string>
+    <string name="insert_column_tag">Insert Column Tag</string>
+    <string name="title_scheduler">AutoSMS Scheduler</string>
+    <string name="title_send_sms">Send SMS</string>
+    <string name="pref_confirm_send">Confirm Sending</string>
+    <string name="pref_confirm_send_summary_on">Confirm before sending message</string>
+    <string name="pref_confirm_send_summary_off">Send message directly</string>
+    <string name="pref_roaming">Roaming</string>
+    <string name="pref_roaming_summary_on">Send SMS when device is roaming</string>
+    <string name="pref_roaming_summary_off">Not send SMS when device is roaming</string>
+    <string name="pref_history">History</string>
+    <string name="hint_schedule_name">Type schedule name</string>
+    <string name="msg_no_telephony_radio">This device does not have telephony radio, can not send SMS.</string>
+    <string name="msg_have_activated_schedules">You have activated schedules.</string>
+    <string name="msg_send_sms">Do you want to send the SMS?</string>
+    <string name="msg_no_phone_contacts">No contacts with phone number.</string>
+    <string name="msg_no_phone_groups">No groups has contacts with phone number.</string>
+    <string name="msg_delete_all_schedules">Do you want to delete all schedules?</string>
+    <string name="msg_delete_all_templates">Do you want to delete all templates?</string>
+    <string name="msg_stop_sending_sms">Do you want to stop sending SMS?</string>
+    <string name="msg_delete_all_history">Do you want to delete all history?</string>
+    <string name="msg_history_result_success">Success</string>
+    <string name="msg_history_result_pending">Pending</string>
+    <string name="msg_history_result_failed">Failed</string>
+    <string-array name="msg_history_result_errors">
+        <item >Unknown</item>
+        <item >Manual stopping</item>
+        <item >Timeout</item>
+        <item >Safe mode is on</item>
+        <item >Roaming</item>
+        <item >Generic failure happens</item>
+        <item >Service is unavailable</item>
+        <item >No PDU is provided</item>
+        <item >Radio is turned off</item>
+    </string-array>
+    <string name="msg_send_sms_result_success">Send SMS successfully.</string>
+    <string name="msg_send_sms_result_failed">Send SMS failed.</string>
+    <string name="msg_reach_schedule_limit">Schedule limit is reached.</string>
+    <string name="msg_input_schedule_name">Please type schedule name</string>
+    <string name="msg_input_sms">Please input SMS</string>
+    <string name="msg_input_content">Please input content</string>
+    <string name="msg_choose_contact">Please choose contacts</string>
+    <string name="msg_want_buy_premium">Want to get more schedules and contacts?</string>
+    <string name="msg_number_wrong_insert_tag">The number of required SMS may be wrong after insert tag.</string>
+    <string name="msg_schedule_is_changed">The setting of schedule is changed, save it?</string>
+    <string-array name="schedule_repeat_types">
+        <item >None</item>
+        <item >Daily</item>
+        <item >Weekly</item>
+        <item >Monthly</item>
+        <item >Yearly</item>
+    </string-array>
+    <string name="schedule_repeat_birthday">Birthday</string>
+    <string name="schedule_timeout">Timeout</string>
+    <string-array name="tag_names">
+        <item >Name</item>
+        <item >Family Name</item>
+        <item >Given Name</item>
+        <item >Nickname</item>
+        <item >Notes</item>
+        <item >APP A</item>
+        <item >APP B</item>
+        <item >APP C</item>
+    </string-array>
+    <string-array name="column_names">
+        <item >Column B</item>
+        <item >Column C</item>
+        <item >Column D</item>
+        <item >Column E</item>
+        <item >Column F</item>
+        <item >Column G</item>
+    </string-array>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="close">Close</string>
+    <string name="storage">Storage</string>
+    <string name="device_storage">Device storage</string>
+    <string name="up_to_parent">Up to %s</string>
+    <string name="msg_import_csv">Importing %s</string>
+    <string name="msg_import_csv_failed">Can\'t import the CSV file.</string>
+    <string name="pref_send_delay">Delay Time</string>
+    <string name="pref_send_delay_summary">Delay %s seconds to send next SMS.</string>
+    <string name="msg_set_delay_time">Delay how many seconds?</string>
+    <string name="csv_import">Import</string>
+    <string name="send_sos">SOS</string>
+    <string name="msg_template_is_changed_save">The content of template is changed, save it?</string>
+    <string name="msg_template_is_changed_ignore">The content of template is changed, ignore it?</string>
+    <string name="sos_schedule">SOS Schedule</string>
+    
+</resources>

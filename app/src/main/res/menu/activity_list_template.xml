@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/itemAddTemplate" android:title="@string/add_template" android:icon="@drawable/ic_action_add_template" android:showAsAction="ifRoom"></item>
+    <item android:id="@+id/itemDeleteAll" android:title="@string/delete_all"></item>
+    
+
+</menu>
